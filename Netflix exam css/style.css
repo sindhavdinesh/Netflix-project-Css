@@ -350,3 +350,132 @@ nav button {
     color: #b7b5b5;
     font-size: 14px;
 }
+
+/* ===============================
+   Base Reset
+================================ */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+/* ===============================
+   Mobile Default (320px+)
+   Mobile First Approach
+================================ */
+
+.container{
+  width:90%;
+  margin:auto;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 0;
+}
+
+.hero{
+  text-align:center;
+  padding:60px 10px;
+}
+
+.hero h1{
+  font-size:26px;
+}
+
+.hero p{
+  font-size:14px;
+  margin-top:10px;
+}
+
+.cards{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  margin-top:40px;
+}
+
+.card{
+  padding:20px;
+  border-radius:8px;
+  background:#222;
+  color:white;
+}
+
+/* ===============================
+   Tablet (768px and up)
+================================ */
+
+@media (min-width:768px){
+
+  .hero h1{
+    font-size:36px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
+
+  .cards{
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .card{
+    width:45%;
+  }
+}
+
+/* ===============================
+   Desktop (1024px and up)
+================================ */
+
+@media (min-width:1024px){
+
+  .container{
+    width:85%;
+  }
+
+  .hero{
+    padding:100px 20px;
+  }
+
+  .hero h1{
+    font-size:48px;
+  }
+
+  .hero p{
+    font-size:18px;
+  }
+
+  .card{
+    width:30%;
+  }
+}
+
+/* ===============================
+   Large Desktop (1440px+)
+================================ */
+
+@media (min-width:1440px){
+
+  .container{
+    width:75%;
+  }
+
+  .hero h1{
+    font-size:56px;
+  }
+
+  .hero p{
+    font-size:20px;
+  }
+}
