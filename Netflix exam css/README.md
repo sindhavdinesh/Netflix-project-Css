@@ -5,7 +5,7 @@ This project replicates the look and feel of Netflix's homepage with a clean UI 
 
 ## 📂 GitHub Repository
 
-📁 https://github.com/your-username/netflix-clone  
+📁 https://github.com/sindhavdinesh/Netflix-project-Css  
 
 ---
 
@@ -51,4 +51,5 @@ Optimized for:
 ```bash
 git clone https://github.com/your-username/netflix-clone.git
 cd netflix-clone
+
 open index.html
